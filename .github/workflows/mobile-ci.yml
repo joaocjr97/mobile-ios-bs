@@ -1,4 +1,4 @@
-name: Mobile CI - IOS
+name: Mobile CI
 on:
   push:
     branches:

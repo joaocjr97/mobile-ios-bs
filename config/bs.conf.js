@@ -6,7 +6,7 @@ export let bsConf = {
   user: process.env.BROWSERSTACK_USERNAME,
   key: process.env.BROWSERSTACK_ACCESS_KEY,
   services: ["browserstack"],
-  specs: ['specs/**/*.js'],
+  specs: ['./test/specs/**/*js'],
   hostname: "hub.browserstack.com",
 
   capabilities: [

@@ -1,9 +1,7 @@
 import { specsConf } from "./specs.conf.js";
-import { suitesConf } from "./suites.conf.js";
-import { reportConf } from "./reports.conf.js";
 
 export let generalConf = {
-  maxInstances: 10,
+  maxInstances: 1,
   logLevel: "info",
   bail: 0,
   waitforTimeout: 10000,
@@ -15,6 +13,4 @@ export let generalConf = {
     timeout: 60000,
   },
   ...specsConf,
-  ...suitesConf,
-  ...reportConf,
 };

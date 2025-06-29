@@ -6,7 +6,7 @@ export let bsConf = {
   user: process.env.BROWSERSTACK_USERNAME,
   key: process.env.BROWSERSTACK_ACCESS_KEY,
   services: ["browserstack"],
-  specs: ['C:/Users/D4Sign/Desktop/testes-mobile-bs/specs/checkoutFlow.e2e.js'],
+  specs: ['specs/**/*.js'],
   hostname: "hub.browserstack.com",
 
   capabilities: [

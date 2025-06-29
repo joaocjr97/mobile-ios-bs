@@ -15,7 +15,7 @@ export let bsConf = {
       "appium:deviceName": "iPhone XR",
       "appium:platformVersion": "15",
       "appium:automationName": "XCUITest",
-      "appium:app": "bs://11df40fcc7c8fd0f5262b17d0d4bc9d3e88bd14d",
+      "appium:app": "bs://d58e8d68794dee5a993fe11cb4788e0124241930",
     },
   ],
   commonCapabilities: {
